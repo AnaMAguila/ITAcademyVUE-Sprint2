@@ -1,0 +1,128 @@
+$primary: #5265E1;
+$secondary: #FA5959;
+$greybutton: #f7f7f7;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success": $greybutton
+  );
+  
+$font-family-sans-serif: "Rubik", sans-serif;
+$font-size-base: 0.8rem;
+
+body {
+  overflow-x: hidden;
+}
+
+main {
+  margin-top: 140px;
+}
+
+.navbar-collapse {
+  .navbar-nav{
+    .nav-item{
+      a {
+        text-align: center;
+        width: 110px;
+      }
+    }
+  }
+}
+
+a:hover, .btn:hover, .navbar-toggler:hover {
+  cursor: url( '/img/hand-pointer-regular.png' ), pointer;  
+}
+
+// Píldora azul fondo
+.pill-right {
+	z-index: -1;
+	width: 400%;
+	height: 75%;
+	top: 25%;
+	left: 20%;
+}
+
+.pill-left {
+	z-index: -1;
+	width: 400%;
+	height: 80%;
+	top: 15%;
+	right: 30%;
+}
+
+// Elimina el borde de la hamburguesa
+.navbar-toggler {
+  color: #00000000 !important;
+  border-color: #00000000 !important;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+	color: #343a40;
+  font-weight: bold;
+	border-bottom: 0.25rem solid $secondary;
+  z-index: 10;
+}
+
+.nav-tabs .nav-item .nav-link {
+	color: #6c757d;
+	border: none;
+}
+
+.nav {
+  .nav-item {
+    border-top: #6c757d 1px solid;
+    .nav-link {
+      letter-spacing: 0.1rem;
+      font-size: 0.85rem;      
+    }
+  } 
+}
+
+
+.nav .nav-item button:hover {
+  cursor: url( '/img/hand-pointer-regular.png' ), pointer;  
+}
+
+.card {
+  width: 70%;
+
+  img{
+    width: 35%;
+  }
+
+  .card-body{
+    // Ancho del botón de la targeta
+    a {
+      width: 95%;
+    }
+  }
+}
+
+
+// Resolución Tablet
+@media (min-width: 768px) {
+  .nav {
+    .nav-item {
+      border-top: none;
+    } 
+  }
+
+  .card-chrome {
+		margin-top: 1rem;
+	}
+
+  .card-firefox {
+		margin-top: 4rem;
+	}
+
+  .card-opera {
+		margin-top: 7rem;
+	}
+
+  .card {
+      width: 95%;
+  }
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
