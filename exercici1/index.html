@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="./css/reducido.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    	
+    <!-- JavaScript Bootstrap -->
+	  <script defer src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <!-- icono -->
+    <link rel="shortcut icon" href="./img/favicon-32x32.png" />
+    
+    <title>BOOKMARK</title>
+  </head>
+  <body>
+    <header class="container-fluid fixed-top bg-body pb-3 pb-md-4">
+        <nav class="navbar navbar-expand-md pt-4 pt-md-5 mx-3">
+          <div class="container-sm">
+            
+            <!-- logo web -->
+            <a class="navbar" href="#"><img src="./img/logo-bookmark.svg" width="150px" class="logo-bookmark" alt="Bookmark"></a>
+            
+            <!-- Hamburguesa resolución móbil en md -->
+            <button class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#desplegaMenu" aria-controls="desplegaMenu" aria-expanded="false">
+              <img src="./img/icon-hamburger.svg" width="15px" alt="MENU">
+            </button>
+            
+            <!-- menú  -->
+            <div class="navbar-collapse collapse mx-md-5" id="desplegaMenu">
+              <ul class="navbar-nav ms-md-auto align-items-center">
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black">FEATURES</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black">PRICING</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black">CONTACT</a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link active bg-secondary rounded-2 text-white shadow mx-2 px-4">LOGIN</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>     
+    </header>    
+
+    <main>
+      <section class="container-sm mt-4">
+        <div class="row align-items-md-center">
+          <div class="col-12 col-md-5 order-2 order-md-1 mt-5 mt-md-0">
+            <h1 class="fw-bold text-center text-md-start">A Simple Bookmark Manager</h1>
+            <p class="lh-base text-black-50 mb-4 mx-4 mx-md-0 text-center text-md-start">A clean and simple interface to organize your favorite website. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+            <div class="buttns text-center text-md-start">
+              <button class="btn btn-primary py-2 shadow mx-1"><span class="small">Get it on Chrome</span></button>
+              <button class="btn btn-success py-2 shadow mx-1"><span class="small">Get it on Firefox</span></button>
+            </div>
+          </div>
+          <div class="col-12 col-md-7 order-1 order-md-2 text-end position-relative">
+            <img src="./img/illustration-hero.svg" class="img-fluid" alt="Illustration Hero">
+            <div class="pill-right rounded-pill bg-primary position-absolute"></div>
+          </div>
+        </div>      
+      </section> 
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
