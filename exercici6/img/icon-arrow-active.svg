@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 12" width="18" height="12">
+	<title>icon-arrow-svg</title>
+	<defs>
+		<image  width="18" height="11" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAALAQMAAABI2U9HAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA+llZZPpAhAAAAAJ0Uk5TAP9bkSK1AAAAMklEQVR4nAXBMRUAEBQAwPMMRhE0kUUQg2g/ighGg8GdkZaTwy1h1qU3Wqc+yiUf0kb4A4YKtxhG6IsAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer" href="#img1" x="0" y="0"/>
+</svg>

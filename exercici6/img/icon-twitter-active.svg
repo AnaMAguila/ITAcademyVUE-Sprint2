@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 20" width="24" height="20">
+	<title>icon-twitter-svg</title>
+	<defs>
+		<image  width="24" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAMAAACgaw2xAAAAAXNSR0IB2cksfwAAAE5QTFRF/////KCg+4aG+3p6+4GB/JmZ/Kmp/JmZ+4aG+llZ+3Nz/KCg/IyM+2tr/JCQ+mJi/KOj+mNj+2xs/J2d/J2d/Kam/JWV+4CA/IuL/JCQntJdoQAAABp0Uk5TAHDb7+abH5zc//ZuzvvA/lf++4eGPK/nz7+oF2H4AAAAnElEQVR4nG2RWxaDIAxEg1ggqaJoQd3/RgstShTmB5ibx0kAuEl0sn/FUykArYpvMIneA0VzpItYzJrmGQDRib+v3AkWtwJM8dL9kgReGfqq2304sCnOT/lFdAdmwEohAap9nBPQDcCn4tryXGF8gDyXl+7uy3MTe6t1gwS2bW+Lb/g36KX21+PoS/NRsOgyOgXF64APu5SbDZ6bX/L6DHieSybaAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer" href="#img1" x="0" y="0"/>
+</svg>
