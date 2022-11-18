@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>icon-facebook-svg</title>
+	<defs>
+		<image  width="24" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYAQMAAADaua+7AAAAAXNSR0IB2cksfwAAAAZQTFRF+llZ////ktZIMAAAAAJ0Uk5T/wDltzBKAAAAHUlEQVR4nGNgwAAfGBiYoZidARXbf4DiB5hy2DEAeW0Gtju5x9AAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Layer" href="#img1" x="0" y="0"/>
+</svg>
